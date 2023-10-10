@@ -1,0 +1,44 @@
+.chatholder {
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow-wrap: break-word;
+    padding: 5px;
+}
+
+.chattext {
+    top: 100%;
+    position: relative;
+    font-size: large;
+
+}
+
+.chatbox {
+    position: fixed;
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    top: 30%;
+    /* border: 1px solid green; */
+    right: 10%;
+    overflow-y: scroll;
+}
+
+.inputfield {
+    position: sticky;
+    bottom: 0px;
+}
+
+.chatheader {
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+.text-box {
+    background-color: aliceblue;
+    border-radius: 10px 10px 10px 0px;
+}

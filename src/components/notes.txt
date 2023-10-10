@@ -1,0 +1,49 @@
+
+
+Hooks  in React
+
+Hooks are functions or objects class that perform actions and functions on the React App
+
+useState Hook
+useEffect Hook
+useMemo Hook
+useRef Hook
+useCallback Hook 
+useContext Hook
+
+Component Hook
+
+<div id="root">
+
+
+</div>
+
+
+and some other Hooks.
+
+
+React.useState Hook
+React.useMemo Hook
+React.useRef Hook
+React.useCallback Hook
+React.useEffect Hook
+
+
+
+Reducer are functions, 
+
+let arr = [1,2,3,4,5,6,7,8,9,10]
+ function(){
+  let   totalVal = 0;
+for(var i=0;i<arr.length;i++){
+    totalVal += arr[i];
+}
+return totalVal;
+ }
+
+ Example of useState useState
+
+ 1: boolean to show or hide
+ 2: Input Storage
+ 3: Object Input Storage
+ 4: Counter Manipulation
